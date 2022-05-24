@@ -1,0 +1,27 @@
+.custom-button {
+  background-color: var(--ufu-blue-alternative);
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+
+
+  &:hover {
+    opacity: 0.9;
+    transform: scale(0.98);
+  }
+
+  > span {
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+.button-icon {
+  padding-right: 0.5rem;
+}
